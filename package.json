@@ -2,7 +2,7 @@
   "name": "postman_collection_test",
   "version": "1.0.0",
   "description": "A Custom GitHub Action Which runs a Postman collection in CI/CD",
-  "main": "dist/index.js",
+  "main": "dist/app.js",
   "scripts": {
     "build": "tsc"
   },
