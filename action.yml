@@ -1,0 +1,18 @@
+name: 'Postman Collection Runner'
+description: 'A GitHub Action to run Postman collections using Newman and return results.'
+inputs:
+  collection:
+    description: 'Path to the Postman collection JSON file'
+    required: true
+  environment:
+    description: 'Path to the Postman environment JSON file'
+    required: false
+  output-file:
+    description: 'Path to the file where results will be stored'
+    required: false
+outputs:
+  results:
+    description: 'Results of the Postman collection run'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
