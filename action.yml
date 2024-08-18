@@ -15,4 +15,4 @@ outputs:
     description: 'Results of the Postman collection run'
 runs:
   using: 'node20'
-  main: 'dist/app.js.js'
+  main: 'dist/app.js'
